@@ -30,7 +30,8 @@ while true
                     echo -e "\e[32m$pingAddress \e[0m"
                 fi
         done
-
+        
+        #To modify the frequency of pings, tune sleep up or down (the number represents seconds)
         sleep 5
         echo "\n"
 done
